@@ -10,6 +10,8 @@ public:
    RM(T*);
    RM(RM&&) noexcept;
    RM& operator=(RM&&) noexcept;
+
+public:
 //delete copy and assignment
    RM(const RM&)=delete;
    RM& operator=(const RM&)=delete;
@@ -18,6 +20,7 @@ public:
    //operators
    T& operator*();
    T* operator->()const;
+
 public:
    const T* get()const;
    void reset()noexcept;
