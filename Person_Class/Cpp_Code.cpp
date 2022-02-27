@@ -1,8 +1,6 @@
 #include <iostream>
-class Person {
-private:
-	std::string name;
-	int age;
+class Person
+{
 public:
 	Person() { age=0;}
 	Person(std::string s,int a): name(s),age(a){}
@@ -20,5 +18,7 @@ public:
 		name = obj.name;
 		return *this;
 	}
-
+private:
+	std::string name;
+	int age;
 };
