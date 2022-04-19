@@ -2,6 +2,6 @@ Directives count: 4
 Classes count: 1
 Variables count: 10
 Function name: foo  Arguments count: 2
-Function name: Edo  Arguments count: 0
+Function name: count  Arguments count: 0
 Function name: main  Arguments count: 0
 Specifiers count: 3
