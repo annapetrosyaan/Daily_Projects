@@ -18,7 +18,7 @@ int foo ( int x , double y )
    Widget obj;
 }
 
-double Edo ( ) {}
+double count ( ) {}
 
 int main ( )
 {
